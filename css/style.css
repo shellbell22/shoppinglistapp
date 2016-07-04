@@ -1,0 +1,47 @@
+@media screen and (max-width: 500px) {
+   * {
+    background-color: black;
+    color: white;
+  }
+
+  .title h1{
+    font-family:"Black Ops One";
+    text-align: center;
+    color: white;
+  }
+
+  .title h3 {
+    text-align: center;
+    font-family: "Cormorant SC";
+    font-size: 1em;
+  }
+
+  .addlist {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding: 0 1em;
+  /* background will be black later, white for testing */
+  background-color: white;
+
+  }
+
+  button {
+    width: 9.688rem;
+    background-color: #4B5320;
+    border-color: #4B5320;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+  
+  .social {
+    font-size: .5em;
+    color: white;
+    text-align: center;
+  }
+}
