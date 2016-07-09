@@ -1,10 +1,14 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
+/* Adds to list */
+$('#addbutton').click(function(){
+    var text = $('#inputName').val();
+    if(text.length){
+        $('<li />', {html: text}).appendTo('ul.missionlist')
+    }
+    $('#inputName').val('');
+});
 
-/* Add New Items - ask about how to do a blinking thingy
-*/
-
-/* Adds to list - change bullet */
 
 /* complete button */
 
@@ -19,6 +23,4 @@ Web Storage API
 
 */
 
-
-
-}
+// )};
