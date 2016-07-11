@@ -87,8 +87,11 @@ input {
     max-width: 600px;
   }
 
-
+<<<<<<< HEAD
+  .list img {
+=======
   .listitem img {
+>>>>>>> master
     width: 1.5em;
     -webkit-filter: hue-rotate(90deg);
   }
