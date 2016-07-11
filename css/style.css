@@ -87,7 +87,7 @@ input {
     max-width: 600px;
   }
 
-  .list img {
+  .listitem img {
     width: 1.5em;
     -webkit-filter: hue-rotate(90deg);
   }
@@ -109,6 +109,11 @@ input {
   #missionaccomplished li {
     color: red;
     text-decoration: line-through;
+
+  }
+
+  .missionaccomplishedlist .checkdiv, .missionaccomplishedlist .removediv {
+    display: none;
   }
 
 .checkdiv {
